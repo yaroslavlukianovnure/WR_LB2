@@ -67,3 +67,37 @@ body {
     top: 0;
     font-size: 20px;
 }
+
+.flex-layout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 90%;
+    max-width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-row {
+    align-items: flex-start;
+}
+
+.flex-item {
+    width: 150px;
+    height: 150px;
+    background-color: #000080; 
+    border: 1px solid #fff;
+}
+
+.flex-item.tall {
+    height: 320px;
+}
