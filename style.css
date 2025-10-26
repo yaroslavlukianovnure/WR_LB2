@@ -4,3 +4,21 @@
     padding: 20px;
     margin-bottom: 20px;
 }
+
+.float-container {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    /* "clearfix" хак для того, щоб контейнер "обгортав" плаваючий елемент */
+    overflow: auto; 
+}
+
+.floated-image {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
