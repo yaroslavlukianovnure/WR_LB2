@@ -1,3 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 10px;
+}
+
 .external-style-section {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -22,3 +29,23 @@
     margin-right: 15px;
     margin-bottom: 5px;
 }
+
+.position-container {
+    position: relative;
+    height: 200px;
+    background-color: #eeeeee;
+    border: 2px solid #999;
+    padding: 10px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 30px;  
+    right: 30px; 
+    width: 150px;
+    height: 100px;
+    background-color: rgba(217, 30, 24, 0.8);
+    color: white;
+    padding: 10px;
+}
+
