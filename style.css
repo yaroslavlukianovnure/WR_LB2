@@ -16,7 +16,6 @@ body {
     background-color: #ffffff;
     border: 1px solid #ccc;
     padding: 15px;
-    /* "clearfix" хак для того, щоб контейнер "обгортав" плаваючий елемент */
     overflow: auto; 
 }
 
